@@ -1,0 +1,63 @@
+.slideshow-container {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+height: 100vh;
+width: 180vh;
+margin-left: 90px;
+
+background-color: rgba(19, 196, 193, 0.895);
+}
+
+
+.slideshow-elements {
+   
+    }
+
+.slideshow-element {
+text-align: center;
+position: absolute;
+transform: translate(-50%, -50%) scale(0);
+transition: transform 0.6s;
+
+}
+
+.slideshow-element i,
+h2{
+    /* background-color: rgb(210, 123, 52); */
+    font-size: 10rem;
+    color: rgb(234, 234, 234);
+    
+    
+}
+
+
+
+.slideshow-element.current {
+  
+    transform: translate(-50%, -50%) scale(1);
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.r{
+    color: red;
+    text-align: left;
+} */
