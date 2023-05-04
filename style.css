@@ -23,7 +23,7 @@ h2 {
 
     @media screen and (max-width: 992px) {
   .element {
-    width: 48%;
+    width: 28%;
   }
 }
     @media screen and (max-width: 600px) {
