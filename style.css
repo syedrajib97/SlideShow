@@ -39,7 +39,16 @@ h2{
     
     }
 
-
+    @media screen and (max-width: 992px) {
+  .element {
+    width: 48%;
+  }
+}
+    @media screen and (max-width: 600px) {
+  .element {
+    width: 100%;
+  }
+}
 
 
 
